@@ -1,11 +1,6 @@
-helloworld-rs: Helloworld Using JAX-RS (Java API for RESTful Web Services)
+BertisRestfulExample: Simple Example Using JAX-RS (Java API for RESTful Web Services)
 ==========================================================================
-Author: Gustavo A. Brey, Gaston Coco  
-Level: Intermediate  
-Technologies: CDI, JAX-RS  
-Summary: Demonstrates the use of CDI 1.1 and JAX-RS 2.0  
-Target Project: WildFly
-Source: <https://github.com/wildfly/quickstart/>  
+see also Source: <https://github.com/wildfly/quickstart/>  
 
 What is it?
 -----------
@@ -46,8 +41,10 @@ _NOTE: The following build command assumes you have configured your Maven user s
 2. Open a command line and navigate to the root directory of this quickstart.
 3. Type this command to build and deploy the archive:
 
+??? TODO
         mvn clean package wildfly:deploy
 
+??? TODO
 4. This will deploy `target/wildfly-helloworld-rs.war` to the running instance of the server.
 
 
