@@ -19,7 +19,7 @@ class BdkResourceServiceImpl implements BdkResourceService {
         System.err.println(lastName);
         System.out.println(lastName);
 
-        return "jaaaawoi" + lastName + firstName;
+        return "jaaaawoi jamei" + lastName + firstName;
     }
     
 }
